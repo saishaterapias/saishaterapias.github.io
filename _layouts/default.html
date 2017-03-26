@@ -2,27 +2,18 @@
   <html>
     <head>
       <title>{{ page.title }}</title>
-      <!-- link to main stylesheet -->
+      <meta charset="utf-8">
+      <link rel="shortcut icon" type="image/x-icon" href="images/flor.jpg" />
       <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
-      <nav>
-          <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/cv">CV</a></li>
-              <li><a href="/blog">Blog</a></li>
-          </ul>
-      </nav>
-      <div class="container">
-
+      <div class="container horizontalLayoout">
       {{ content }}
-
-      </div><!-- /.container -->
-      <footer>
-          <ul>
-              <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-              <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+      </div>
+      <footer style="font-size: 18px; text-align: center;" class="horizontalLayoout">
+          <div class="flex-2"><a target="_blank" href="mailto:cintya125@hotmail.com"><b>Contactar por e-mail</b></a></div>
+          <div class="flex"><b>Saisha Terapias</b><br>(Sitio en construcción)</div>
+          <div class="flex-2"><b>Teléfono: (15) 6377-2326</b></div>
         </ul>
       </footer>
     </body>

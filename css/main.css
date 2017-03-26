@@ -1,6 +1,5 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin-top: 30px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -11,13 +10,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-size: 3em;
@@ -40,3 +32,27 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+div.blurb div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.horizontalLayoout {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+
+
